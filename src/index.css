@@ -81,16 +81,26 @@
 }
 
 .section-1-lp-content-1 {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: start;
     padding: 20px 10px;
-    gap: 20px;
 }
 
-.section-1-lp-content-1 img {
-    width: 80px;
+.section-1-lp-content-1 p {
+    margin-right: 100px;
+}
+
+.imagen-mascota {
+    position: absolute;
+    top: -85%;
+    left: 65%;
+}
+
+.imagen-mascota img {
+    width: 110px;
 }
 
 .section-1-lp-content-2 {
@@ -130,6 +140,16 @@
     font-size: 16px;
 }
 
+.section-1-lp-cards-text {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 310px;
+    height: 80px;
+    padding: 10px 10px;
+    color: var(--text-color);
+}
+
 .section-1-lp-content-2-button button {
     margin: 20px 0;
     display: inline-block;
@@ -144,6 +164,14 @@
 }
 
 /* ---------------------------------------------- SECTION 2 LP */
+
+.section-2-lp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .section-2-lp-header {
     color: var(--text-color);
@@ -162,27 +190,23 @@
 .section-2-lp-content-1 {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     text-align: center;
     color: var(--text-color);
-    gap: 20px;
+    width: 360px;
+    gap: 10px;
     padding-bottom: 20px;
+}
+
+.section-2-lp-content-1 div {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
 }
 
 .section-2-lp-content-1 div:last-child {
     flex-basis: 100%;
-}
-
-.div-pag {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.div-pag hr {
-    border-radius: 5px;
-    margin-bottom: 20px;
-    width: 90%;
+    max-width: 100%;
 }
 
 /* -------------------------------------------------------------------------- FOOTER */
@@ -226,4 +250,283 @@
 
 .poli-copy a {
     text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        width: 520px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 60px;
+    }
+
+    .section-1-lp-content-1 {
+        padding-bottom: 30px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 250px;
+        font-size: 20px;
+    }
+
+    .imagen-mascota {
+        top: -90%;
+        left: 65%;
+    }
+
+    .imagen-mascota img {
+        width: 180px;
+    }
+
+    .section-1-lp-content-2 {
+        padding: 5px 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 20px;
+    }
+
+    .section-1-lp-content-2-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 450px;
+        height: 70px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 25px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header {
+        padding: 30px 0;
+    }
+
+    .section-2-lp-header h2 {
+        font-size: 40px;
+    }
+
+    .section-2-lp-header h3 {
+        font-size: 25px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 500px;
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+
+    .section-2-lp-content-1 div {
+        flex: 1 1 calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px);
+    }
+
+    .section-2-lp-content-1 div:last-child {
+        flex-basis: calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px);
+    }
+}
+
+@media (min-width: 768px) {
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        width: 680px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 80px;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 40px;
+    }
+
+    .section-1-lp-content-1 {
+        padding-bottom: 50px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 340px;
+        font-size: 25px;
+    }
+
+    .imagen-mascota {
+        top: -115%;
+        left: 60%;
+    }
+
+    .imagen-mascota img {
+        width: 280px;
+    }
+
+    .section-1-lp-content-2 {
+        padding: 5px 20px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 25px;
+    }
+
+    .section-1-lp-content-2-card {
+        gap: 20px;
+        font-size: 20px;
+        padding: 10px 30px;
+        margin: 0 20px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 80px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 630px;
+        height: 50px;
+        padding: 20px 30px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        width: 600px;
+        margin-right: 250px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 70px;
+        padding-top: 30px;
+        line-height: 1;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 40px;
+    }
+
+    .section-1-lp-content-1 {
+        padding-bottom: 20px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 500px;
+        font-size: 25px;
+    }
+
+    .imagen-mascota {
+        top: -190%;
+        left: 65%;
+    }
+
+    .imagen-mascota img {
+        width: 300px;
+    }
+
+    .section-1-lp-content-2 {
+        padding: 5px 40px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 25px;
+    }
+
+    .section-1-lp-content-2-card {
+        gap: 30px;
+        font-size: 20px;
+        padding: 5px 50px;
+        margin: 0 20px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 60px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 690px;
+        height: 50px;
+        padding: 20px 30px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        margin-right: 350px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 80px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 600px;
+        font-size: 25px;
+    }
+
+    .imagen-mascota {
+        top: -210%;
+        left: 65%;
+    }
+
+    .imagen-mascota img {
+        width: 320px;
+    }
+
+    .section-1-lp-content-2 {
+        padding: 5px 40px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 25px;
+    }
+
+    .section-1-lp-content-2-card {
+        gap: 30px;
+        font-size: 20px;
+        padding: 5px 50px;
+        margin: 0 20px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 60px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 690px;
+        height: 50px;
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 25px;
+    }
 }
