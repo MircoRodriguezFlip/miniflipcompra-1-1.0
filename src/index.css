@@ -209,6 +209,11 @@
     max-width: 100%;
 }
 
+.section-2-lp-content-1 img {
+    width: 70px;
+    padding-top: 10px;
+}
+
 /* -------------------------------------------------------------------------- FOOTER */
 
 .footer {
@@ -338,6 +343,10 @@
         flex-basis: calc(33.33% - 10px);
         max-width: calc(33.33% - 10px);
     }
+
+    .section-2-lp-content-1 img {
+        width: 80px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -402,6 +411,21 @@
 
     .section-1-lp-content-2-button button {
         font-size: 25px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2 {
+        font-size: 50px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 650px;
+    }
+
+    .section-2-lp-content-1 img {
+        width: 100px;
+        padding-top: 15px;
     }
 }
 
@@ -471,6 +495,22 @@
     .section-1-lp-content-2-button button {
         font-size: 25px;
     }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2 {
+        font-size: 60px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 800px;
+        font-size: 20px;
+    }
+
+    .section-2-lp-content-1 img {
+        width: 150px;
+        padding-top: 20px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -528,5 +568,171 @@
 
     .section-1-lp-content-2-button button {
         font-size: 25px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2 {
+        font-size: 70px;
+    }
+
+    .section-2-lp-header h3 {
+        font-size: 30px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 1000px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        margin-right: 500px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 90px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 680px;
+        font-size: 30px;
+    }
+
+    .imagen-mascota {
+        top: -210%;
+        left: 70%;
+    }
+
+    .imagen-mascota img {
+        width: 370px;
+    }
+
+    .section-1-lp-content-2 {
+        margin-top: 20px;
+        padding: 5px 50px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 30px;
+    }
+
+    .section-1-lp-content-2-card {
+        gap: 40px;
+        font-size: 25px;
+        padding: 5px 60px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 80px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 850px;
+        height: 50px;
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 30px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2 {
+        font-size: 80px;
+    }
+
+    .section-2-lp-header h3 {
+        font-size: 40px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 1200px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1700px) {
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* ---------------------------------------------- SECTION 1 LP */
+
+    .section-1-lp-header {
+        margin-right: 500px;
+    }
+
+    .section-1-lp-header h1 {
+        font-size: 100px;
+    }
+
+    .section-1-lp-header h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .section-1-lp-content-1 p {
+        margin-right: 680px;
+        font-size: 30px;
+    }
+
+    .imagen-mascota {
+        top: -250%;
+        left: 70%;
+    }
+
+    .imagen-mascota img {
+        width: 450px;
+    }
+
+    .section-1-lp-content-2 {
+        margin-top: 40px;
+        padding: 5px 50px;
+    }
+
+    .section-1-lp-content-2 h3 {
+        font-size: 35px;
+    }
+
+    .section-1-lp-content-2-card {
+        gap: 50px;
+        font-size: 25px;
+        padding: 5px 70px;
+    }
+
+    .section-1-lp-content-2-cards img {
+        width: 80px;
+    }
+
+    .section-1-lp-cards-text {
+        width: 900px;
+        height: 50px;
+        padding: 10px 80px;
+        font-size: 18px;
+    }
+
+    .section-1-lp-content-2-button button {
+        font-size: 40px;
+    }
+
+    /* ---------------------------------------------- SECTION 2 LP */
+
+    .section-2-lp-header h2 {
+        font-size: 90px;
+    }
+
+    .section-2-lp-header h3 {
+        font-size: 40px;
+    }
+
+    .section-2-lp-content-1 {
+        width: 1200px;
+        font-size: 30px;
     }
 }

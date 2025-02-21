@@ -1,4 +1,6 @@
-import LogoNavbar from '../../assets/images/logo navbar rojo 2.webp';
+import icono1 from '../../assets/images/icono-section-2-lp-1.webp';
+import icono2 from '../../assets/images/icono-section-2-lp-2.webp';
+import icono3 from '../../assets/images/icono-section-2-lp-3.webp';
 
 export const Section2Lp = () => {
     return (
@@ -11,17 +13,17 @@ export const Section2Lp = () => {
             <div className="section-2-lp-content-1">
                 <div>
                     <p className="light-text">1.- Dejanos tus datos</p>
-                    <img src={LogoNavbar} alt="" />
+                    <img src={icono1} alt="" />
                 </div>
 
                 <div>
                     <p className="light-text">2.- Recibe una oferta</p>
-                    <img src={LogoNavbar} alt="" />
+                    <img src={icono2} alt="" />
                 </div>
 
                 <div>
                     <p className="light-text">3.- Conocemos tu casa</p>
-                    <img src={LogoNavbar} alt="" />
+                    <img src={icono3} alt="" />
                 </div>
             </div>
         </section>
