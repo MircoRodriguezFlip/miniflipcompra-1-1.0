@@ -26,6 +26,8 @@ export const Section2Lp = () => {
                     <img src={icono3} alt="" />
                 </div>
             </div>
+
+            <hr />
         </section>
     );
 };

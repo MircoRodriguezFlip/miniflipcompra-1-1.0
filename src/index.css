@@ -214,6 +214,111 @@
     padding-top: 10px;
 }
 
+.section-2-lp-container hr {
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    height: 2px;
+    background-color: var(--text-color);
+    margin: 10px 0;
+}
+
+/* ---------------------------------------------- SECTION 3 LP */
+
+.section-3-lp-container {
+    padding-bottom: 80px;
+}
+
+.parrafo-section-3-lp {
+    display: none;
+}
+
+/* ------------------------------- FORM */
+
+.form {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.campos-obligatorios {
+    text-align: end;
+}
+
+.campos-obligatorios p {
+    margin: 0;
+}
+
+.campo-precalificar-form select,
+.campo-precalificar-form input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.campo-precalificar-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    background-color: white;
+    border-color: #000000;
+}
+
+.form-error,
+.text-danger {
+    color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+}
+
+.text-danger {
+    margin-top: -16px;
+}
+
+.text-danger-2 {
+    margin: 0;
+    margin-bottom: -15px;
+}
+
+.form-error {
+    position: absolute;
+}
+
+.form-error p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.content-envio {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.botonForm {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 6px 13px;
+    line-height: 1.5;
+    border-radius: 1rem;
+    color: #ffffff;
+    background: linear-gradient(var(--primary-color) 100%, var(--secondary-color));
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.spinner-container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* -------------------------------------------------------------------------- FOOTER */
 
 .footer {
@@ -347,6 +452,25 @@
     .section-2-lp-content-1 img {
         width: 80px;
     }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 500px;
+    }
+
+    .botonForm {
+        padding: 6px 20px;
+        font-size: 16px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .footer {
+        padding: 0 100px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -426,6 +550,25 @@
     .section-2-lp-content-1 img {
         width: 100px;
         padding-top: 15px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 650px;
+    }
+
+    .botonForm {
+        padding: 6px 30px;
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .footer {
+        padding: 0 200px;
     }
 }
 
@@ -511,6 +654,41 @@
         width: 150px;
         padding-top: 20px;
     }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .parrafo-section-3-lp {
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: justify;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 400px;
+    }
+
+    .botonForm {
+        padding: 6px 30px;
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .footer {
+        padding: 0 300px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -584,6 +762,41 @@
         width: 1000px;
         font-size: 25px;
     }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .parrafo-section-3-lp {
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: justify;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 400px;
+    }
+
+    .botonForm {
+        padding: 6px 30px;
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .footer {
+        padding: 0 350px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -656,6 +869,35 @@
     .section-2-lp-content-1 {
         width: 1200px;
         font-size: 30px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .parrafo-section-3-lp {
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: justify;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 600px;
+    }
+
+    .botonForm {
+        padding: 6px 30px;
+        font-size: 20px;
     }
 }
 
@@ -734,5 +976,49 @@
     .section-2-lp-content-1 {
         width: 1200px;
         font-size: 30px;
+    }
+
+    /* ---------------------------------------------- SECTION 3 LP */
+
+    .section-3-lp-content-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .parrafo-section-3-lp {
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    /* ------------------------------- FORM */
+
+    .form {
+        width: 600px;
+    }
+
+    .form-control {
+        padding: 10px 0;
+    }
+
+    .form-error p {
+        font-size: 16px;
+    }
+
+    .botonForm {
+        padding: 6px 50px;
+        font-size: 24px;
+    }
+
+    /* -------------------------------------------------------------------------- FOOTER */
+
+    .footer {
+        padding: 0 500px;
     }
 }
